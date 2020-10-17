@@ -1,0 +1,16 @@
+{
+  "name": "eth-chat",
+  "version": "0.1.0",
+  "description": "Ethereum LibP2P Chat",
+  "main": "index.js",
+  "repository": "git@github.com:xhad/eth-chat.git",
+  "author": "Chad Lynch",
+  "license": "MIT",
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  }
+
+}

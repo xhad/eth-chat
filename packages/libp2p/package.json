@@ -1,0 +1,29 @@
+{
+  "name": "eth-chat-libp2p",
+  "version": "0.1.0",
+  "description": "This is the Libp2p chat server.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/xhad/eth-chat.git"
+  },
+  "keywords": [
+    "Ethereum",
+    "Libp2p",
+    "Cath"
+  ],
+  "author": "Chad Lynch",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xhad/eth-chat/issues"
+  },
+  "homepage": "https://github.com/xhad/eth-chat#readme",
+  "dependencies": {
+    "@nodeutils/defaults-deep": "^1.1.0",
+    "libp2p": "^0.29.0",
+    "libp2p-tcp": "^0.13.2"
+  }
+}
